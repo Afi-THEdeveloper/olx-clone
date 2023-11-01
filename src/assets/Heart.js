@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
-export default function Heart() {
+
+export default function Heart({id}) {
+    
     return(
-        <svg
+      <svg
         width="24px"
         height="24px"
         viewBox="0 0 1024 1024"
@@ -17,3 +19,7 @@ export default function Heart() {
       </svg>
     )
 }
+
+
+
+
